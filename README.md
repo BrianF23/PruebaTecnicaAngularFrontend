@@ -4,6 +4,16 @@ This project is merely a test project using Angular [Angular CLI](https://github
 
 The project consists of consuming a Rest API from [The Rick and Morty API] (https://rickandmortyapi.com/), for mere education.
 
+### Development version
+
+Angular CLI: 15.1.4
+Node: 16.13.1
+Package Manager: npm 8.1.2
+
+### Using Bootstrap 5.0
+
+Bootstrap 5.0 was used in the project.
+
 ## Get started
 
 ### Clone the repository
@@ -13,10 +23,13 @@ git clone https://github.com/BrianF23/PruebaTecnicaAngularFrontend.git
 cd PruebaTecnicaAngularFrontend
 ```
 
-### Using Bootstrap 5.0
+### Install npm packages
 
-Bootstrap 5.0 was used in the project.
+Install the `npm` packages described in the `package.json` and verify that it works:
 
+```shell
+npm install
+```
 
 #### ng scripts run
 
