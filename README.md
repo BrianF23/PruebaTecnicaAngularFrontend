@@ -1,27 +1,26 @@
 # AppSerieRickMorty
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
+This project is merely a test project using Angular [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
 
-## Development server
+The project consists of consuming a Rest API from [The Rick and Morty API] (https://rickandmortyapi.com/), for mere education.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Get started
 
-## Code scaffolding
+### Clone the repository
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```shell
+git clone https://github.com/BrianF23/PruebaTecnicaAngularFrontend.git
+cd PruebaTecnicaAngularFrontend
+```
 
-## Build
+### Using Bootstrap 5.0
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Bootstrap 5.0 was used in the project.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### ng scripts run
 
-## Running end-to-end tests
+These are the most useful commands defined in `package.json`:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+* `ng serve` - This command is to start the server and run the project, it is executed in the terminal on the root of the project.
+* `http://localhost:4200/` - Once compiled it runs locally on port 4200, it can be opened in any browser.

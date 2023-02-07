@@ -1,59 +1,151 @@
-.DS_STORE
+# Created by https://www.toptal.com/developers/gitignore/api/react,angular,visualstudiocode,test
+# Edit at https://www.toptal.com/developers/gitignore?templates=react,angular,visualstudiocode,test
 
-/dist/
-/bazel-out
-/integration/bazel/bazel-*
-*.log
-/node_modules/
+### Angular ###
+## Angular ##
+# compiled output
+dist/
+tmp/
+app/**/*.js
+app/**/*.js.map
 
-# CircleCI temporary file for cache key computation.
-# See `save_month_to_file` in `.circleci/config.yml`.
-month.txt
+# dependencies
+node_modules/
+bower_components/
 
-# Include when developing application packages.
-pubspec.lock
-.c9
+# IDEs and editors
 .idea/
-.devcontainer/*
-!.devcontainer/README.md
-!.devcontainer/recommended-devcontainer.json
-!.devcontainer/recommended-Dockerfile
-.settings/
-.vscode/launch.json
-.vscode/settings.json
-.vscode/tasks.json
-*.swo
-*.swp
-modules/.settings
-modules/.vscode
-.vimrc
-.nvimrc
 
-# Don't check in secret files
-*secret.js
-
-# Ignore npm/yarn debug log
+# misc
+.sass-cache/
+connect.lock/
+coverage/
+libpeerconnection.log/
 npm-debug.log
-yarn-error.log
+testem.log
+typings/
+.angular/
 
-# build-analytics
-.build-analytics
+# e2e
+e2e/*.js
+e2e/*.map
 
-# rollup-test output
-/modules/rollup-test/dist/
+# System Files
+.DS_Store/
 
-# User specific bazel settings
-.bazelrc.user
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
 
-# User specific ng-dev settings
-.ng-dev.user*
+node_modules
+bower_components
 
-.notes.md
-baseline.json
+*.sublime*
 
-# Ignore .history for the xyz.local-history VSCode extension
+psd
+thumb
+sketch
+
+### Test ###
+### Ignore all files that could be used to test your code and
+### you wouldn't want to push
+
+# Reference https://en.wikipedia.org/wiki/Metasyntactic_variable
+
+# Most common
+*foo
+*bar
+*fubar
+*foobar
+*baz
+
+# Less common
+*qux
+*quux
+*bongo
+*bazola
+*ztesch
+
+# UK, Australia
+*wibble
+*wobble
+*wubble
+*flob
+*blep
+*blah
+*boop
+*beep
+
+# Japanese
+*hoge
+*piyo
+*fuga
+*hogera
+*hogehoge
+
+# Portugal, Spain
+*fulano
+*sicrano
+*beltrano
+*mengano
+*perengano
+*zutano
+
+# France, Italy, the Netherlands
+*toto
+*titi
+*tata
+*tutu
+*pipppo
+*pluto
+*paperino
+*aap
+*noot
+*mies
+
+# Other names that would make sense
+*tests
+*testsdir
+*testsfile
+*testsfiles
+*test
+*testdir
+*testfile
+*testfiles
+*testing
+*testingdir
+*testingfile
+*testingfiles
+*temp
+*tempdir
+*tempfile
+*tempfiles
+*tmp
+*tmpdir
+*tmpfile
+*tmpfiles
+*lol
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
 .history
+.ionide
 
-# Husky
-.husky/_
-aio/content/examples/.DS_Store
+# End of https://www.toptal.com/developers/gitignore/api/react,angular,visualstudiocode,test
