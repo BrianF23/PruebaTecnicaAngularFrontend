@@ -1,0 +1,26 @@
+<div class="row flex-wrap">
+    <div *ngFor="let result of resultadosAll" class="col-ms-4 col-sm-3 result">
+        <div class="float-end customNumber"><span class="fw-bolder"># {{result.id}}</span></div>
+        <div class="card">
+            <img [src]="result.image" class="card-img-top" [alt]="result.name">
+            <div class="card-body">
+                <h4 class="card-title fw-bold">{{result.name.length > 23 ? (result.name | slice:0:19)+'...' : result.name}} </h4>
+                <div class="customp">
+                    <div class="row catalog">
+                        <div class="col-6 col-sm-4 card-text"><span class="fw-bold">Status:</span></div>
+                        <div class="col-6 col-sm-4 card-text"><span>{{result.status}}</span></div>
+                    </div>
+                    <div class="row catalog">
+                        <div class="col-6 col-sm-4 card-text fw-bold"><span class="fw-bold">Gender:</span></div>
+                        <div class="col-6 col-sm-4 card-text"><span >{{result.gender}}</span></div>
+                    </div>
+                    <div class="row catalog">
+                        <div class="col-6 col-sm-4 card-text fw-bold"><span class="fw-bold">Specie:</span></div>
+                        <div class="col-6 col-sm-4 card-text"><span>{{result.species}}</span></div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>
+</div>
+

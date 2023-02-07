@@ -1,0 +1,11 @@
+<div class="border-right p-3 rounded" id="siderbar">
+    <h5 class="text">
+      Historial de busqueda <br>
+    </h5>
+    <hr class="text"/>
+    <div class="list-group list-reset ">
+        <a *ngFor="let item_historial of historial;" href="#" (click)="buscar(item_historial)" class="list-group-item list-group-item-action" >
+        {{item_historial | titlecase}}
+      </a>      
+    </div>
+  </div>
